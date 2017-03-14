@@ -1,0 +1,26 @@
+{
+	"data": {
+		"accounts": [{
+			"id": 1,
+			"name": "circle banking",
+			"payments": [{
+				"date": 123456789,
+				"amount": 100.50
+			}]
+		}],
+		"profile": {
+			"name": "test user",
+			"ssn": "111-11-1111",
+			"email": "user@example.com"
+		},
+		"prefs": {
+			"alerts": {
+				"email": true,
+				"sms": false
+			}
+		}
+	},
+	"ui": {
+		"accountVisibilityFilter": "SHOW_ALL"
+	}
+}
