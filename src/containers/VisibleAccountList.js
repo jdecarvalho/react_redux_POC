@@ -4,10 +4,10 @@ import AccountList from '../components/AccountList'
 
 const getVisibleAccounts = (accounts, filter) => {
 		switch (filter) {
-			case 'SHOW_COMPLETED':
-				return accounts.filter( t => t.completed )
+			case 'SHOW_INACTIVE':
+				return accounts.filter( t => !t.active )
 			case 'SHOW_ACTIVE':
-				return accounts.filter( t => !t.completed )
+				return accounts.filter( t => t.active )
 			default:
 				return accounts
 		}

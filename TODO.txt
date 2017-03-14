@@ -1,0 +1,6 @@
+- i18n everything
+- tests
+- describe how this is better than flux
+- move JSX to external files
+- change angular example at work from "npm server" to "npm start"
+- use sas variables

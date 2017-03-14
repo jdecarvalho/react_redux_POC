@@ -1,8 +1,0 @@
-import { combineReducers } from 'redux'
-import accounts from './accounts'
-
-const dataReducer = combineReducers({
-	accounts
-})
-
-export default dataReducer

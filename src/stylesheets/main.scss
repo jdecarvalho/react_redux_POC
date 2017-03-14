@@ -1,0 +1,54 @@
+.accountList {
+
+	ul {
+	    list-style: none;
+
+		ul {
+			list-style: disc;
+
+			ul {
+		    	list-style: none;
+		    	padding: 0
+	    	}
+		}
+	}
+
+	li {
+		&:before {
+			content: "\00bb \0020";
+		}
+
+		li {
+			&:before {
+				content: "";
+			}
+		}
+	}
+
+	.hidePayments ul {
+		display: none
+	}
+
+	.showPayments ul {
+		display: display
+	}
+
+}
+
+.account {
+
+	&.inactive {
+		text-decoration: line-through;
+		color: #999999
+	}
+
+	&.showPayments {
+		color: #990000
+	}
+
+	&:hover {
+		cursor: pointer;
+		background-color: rgba(white, 0.3);
+	}
+
+}

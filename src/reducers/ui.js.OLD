@@ -1,8 +1,0 @@
-import { combineReducers } from 'redux'
-import paymentsVisibilityFilter from './paymentsVisibilityFilter'
-
-const uiReducer = combineReducers({
-	paymentsVisibilityFilter
-})
-
-export default uiReducer

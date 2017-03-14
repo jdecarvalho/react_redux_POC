@@ -1,4 +1,5 @@
 import React, { PropTypes } from 'react'
+import { Button } from 'react-bootstrap';
 
 const Link = ({ active, children, onClick }) => {
 	if (active) {
@@ -6,14 +7,15 @@ const Link = ({ active, children, onClick }) => {
 	}
 
 	return (
-			<a href="#"
+			<Button
+				bsStyle="info"
 				onClick={e => {
 					e.preventDefault()
 					onClick()
 				}}
 			>
 				{children}
-			</a>
+			</Button>
 	)
 }
 

@@ -3,7 +3,7 @@ import Footer from './Footer'
 import VisibleAccountList from '../containers/VisibleAccountList'
 
 const App = () => (
-		<div>
+		<div className="accountList">
 			<VisibleAccountList />
 			<Footer />
 		</div>

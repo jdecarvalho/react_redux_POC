@@ -6,7 +6,7 @@ const account = (state = {}, action) => {
 			}
 
 			return Object.assign({}, state, {
-				completed: !state.completed
+				showPayments: !state.showPayments
 			})
 	      default:
 			return state

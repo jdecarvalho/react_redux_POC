@@ -2,14 +2,31 @@
 	"data": {
 		"accounts": [{
 			"id": 1,
-			"name": "circle banking",
+			"name": "Green Account",
+			"active": true,
 			"payments": [{
-				"date": 123456789,
-				"amount": 100.50
+				"date": 978357600000,
+				"amount": 100.50,
+				"cleared": true
 			}]
+		}, {
+			"id": 200,
+			"name": "Circle Plus",
+			"active": true,
+			"payments": [{
+				"date": 1012665600000,
+				"amount": 47.89
+			}, {
+				"date": 1046714400000,
+				"amount": 100,
+				"cleared": true
+			}]
+		}, {
+			"id": 33,
+			"name": "Defunct Account"
 		}],
 		"profile": {
-			"name": "test user",
+			"name": "Test User",
 			"ssn": "111-11-1111",
 			"email": "user@example.com"
 		},
