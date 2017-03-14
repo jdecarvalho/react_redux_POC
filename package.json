@@ -5,6 +5,7 @@
   "devDependencies": {
     "create-react-app-sass": "^1.1.0",
     "enzyme": "^2.4.1",
+    "glob": "^7.1.1",
     "react-addons-test-utils": "^15.3.0",
     "react-dom": "^15.4.2",
     "react-scripts": "^0.9.5",
@@ -24,6 +25,6 @@
     "start": "react-scripts-with-sass start",
     "build": "react-scripts-with-sass build",
     "eject": "react-scripts eject",
-    "test": "react-scripts test"
+    "test": "react-scripts test --env=jsdom"
   }
 }
